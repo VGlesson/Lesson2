@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Text_Redactor"
         mc:Ignorable="d"
-        Title="Калькулятор" Height="450" Width="300">
-    <Grid>
+        Title="Калькулятор" Height="450" Width="300" Background="{x:Null}">
+    <Grid Background="#FF6B71EC">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Border
             Grid.Row="0"
-            Background="Gray"
-            BorderBrush="AliceBlue"
+            Background="#FF9BC5D8"
+            BorderBrush="#FF2B5E8B"
             BorderThickness="3 3 1 1"
             Margin="10"
             Height="80">
@@ -27,30 +27,30 @@
             />
         </Border>
         <UniformGrid Rows="6" Columns="4" Grid.Row="2">
-            <Button Content="%"/>
-            <Button Content="CE"/>
-            <Button Content="C"/>
-            <Button Content="←"/>
-            <Button Content="1/x"/>
-            <Button Content="x²"/>
-            <Button Content="√x"/>
-            <Button Content="÷"/>
-            <Button Content="1"/>
-            <Button Content="2"/>
-            <Button Content="3"/>
-            <Button Content="x"/>
-            <Button Content="4"/>
-            <Button Content="5"/>
-            <Button Content="6"/>
-            <Button Content="-"/>
-            <Button Content="7"/>
-            <Button Content="8"/>
-            <Button Content="9"/>
-            <Button Content="+"/>
-            <Button Content="+/-"/>
-            <Button Content="0"/>
-            <Button Content=","/>
-            <Button Content="="/>
+            <Button Content="%" Background="#FF9C9C9C"/>
+            <Button Content="CE" Background="#FF9C9C9C"/>
+            <Button Content="C" Background="#FF9C9C9C"/>
+            <Button Content="←" Background="#FF9C9C9C"/>
+            <Button Content="1/x" Background="#FF9C9C9C"/>
+            <Button Content="x²" Background="#FF9C9C9C"/>
+            <Button Content="√x" Background="#FF9C9C9C"/>
+            <Button Content="÷" Background="#FF9C9C9C"/>
+            <Button Content="1" Background="#FF2CC8C8"/>
+            <Button Content="2" Background="#FF2CC8C8"/>
+            <Button Content="3" Background="#FF2CC8C8"/>
+            <Button Content="x" Background="#FF9C9C9C"/>
+            <Button Content="4" Background="#FF2CC8C8"/>
+            <Button Content="5" Background="#FF2CC8C8"/>
+            <Button Content="6" Background="#FF2CC8C8"/>
+            <Button Content="-" Background="#FF9C9C9C"/>
+            <Button Content="7" Background="#FF2CC8C8"/>
+            <Button Content="8" Background="#FF2CC8C9"/>
+            <Button Content="9" Background="#FF2CC8C8"/>
+            <Button Content="+" Background="#FF9C9C9C"/>
+            <Button Content="+/-" Background="#FF9C9C9C"/>
+            <Button Content="0" Background="#FF2CC8C8"/>
+            <Button Content="," Background="#FF9C9C9C"/>
+            <Button Content="=" Background="#FF9C9C9C"/>
         </UniformGrid>
     </Grid>
 </Window>
